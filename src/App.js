@@ -1,13 +1,16 @@
 
+import React from 'react';
 import './App.css';
-import BasicExample from './Form/form';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import NewForm from './Component/Newform';
 
 
-function App() {
+
+function App  () {
   return (
     <div className="App">
-      <BasicExample />
-      
+      <NewForm />
     </div>
   );
 }
